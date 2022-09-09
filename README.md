@@ -1,6 +1,6 @@
 # MERN Stack Library Application (Frontend)
 
-**Live Link**: [https://library-kamran.vercel.app/](https://library-kamran.vercel.app/)
+**Live Link**: [https://library-kamran.vercel.app/](https://library-kamran.vercel.app/)\
 **Backend Repo**: [https://github.com/codeByKamran/library-application-server](https://github.com/codeByKamran/library-application-server)
 
 ## Used technologies
