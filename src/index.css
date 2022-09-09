@@ -1,0 +1,46 @@
+:root {
+  --clr-primary: #e76f51;
+  --clr-primary-light: rgb(235, 139, 115);
+  --clr-primary-dark: rgb(161, 77, 56);
+  --clr-secondary: #cbd5e1;
+  --clr-secondary-light: #e2e8f0;
+  --clr-secondary-dark: #94a3b8;
+
+  --clr-primary-text: #1e293b;
+  --clr-seconodary-text: #334155;
+  --clr-info-text: #475569;
+
+  --clr-primary-text-dark: #e2e8f0;
+  --clr-seconodary-text-dark: #a0aec0;
+  --clr-info-text-dark: #94a3b8;
+
+  --clr-background-main: #252c48;
+  --clr-background-light: #394264;
+  --clr-background-accent: #011627;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./styles/taiolwind-extended.css";
